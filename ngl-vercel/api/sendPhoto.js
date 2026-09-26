@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ success: false, error: "Method Not Allowed" });
   }
 
-  const botToken = "8623003156:AAFsd5zkSR48lUsptLGop1rZFUTfbU3Gkh8";
+  const botToken = "8462682909:AAF9JFROvrPsuYuNpnHOaX_DvYHI3h1DDYU";
   const chatId = "7206573112";
 
   try {
